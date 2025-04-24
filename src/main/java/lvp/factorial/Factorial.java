@@ -3,6 +3,15 @@
 // Factorial.java - Berechnet die Fakultät einer Zahl
 // Factorial.java - Berechnet die Fakultät einer Zahl
 
+
+    int factorial(int n) {
+    int result = 1;
+    while (n > 0) {
+        result *= n;
+        n--;
+    }
+    return result;
+}
 RegisterSet register = new RegisterSet(
     1, // r[0] = result
     0, // r[1] = n
