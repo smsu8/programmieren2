@@ -1,0 +1,4 @@
+
+enum Status {
+    ANWESEND, ABWESEND, ENTSCHULDIGT, VERSPÄTET
+}
